@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>GIF Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h2 class="text-center">Click any sports button to display some .GIFs!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9" id="sportButtons"></div>
+            <div class="col-md-3">
+                <form id="sportForm">
+                    <label for="sportInput">Enter a new sport:</label>
+                    <input class="form-control" type="text" id="sportInput">
+                    <button id="addsport" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="sports">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

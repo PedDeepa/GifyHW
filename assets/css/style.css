@@ -1,0 +1,34 @@
+
+.userSport {
+    display: inline-block;
+    margin: 10px;
+}
+
+#sportButtons {
+    border-radius: 12px;
+    background-color: #1bfcfc;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 5px 0;
+}
+
+#sportForm {
+	margin: 10px 0;
+}
+
+#addsport {
+	border-radius: 12px;
+    background-color: #1f6d63;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+
+
